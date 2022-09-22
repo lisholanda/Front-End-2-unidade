@@ -1,0 +1,58 @@
+div#total{
+    width: 95%;
+    max-width: 960px;
+    height: auto;
+    margin: auto;
+}
+header#topo{
+    width: 100%;
+    height: auto;
+    float: left;
+
+}
+div#logo{
+    width: 200px;
+    height: 80px;
+    margin: 40px auto;
+    
+} 
+nav#menu{
+    width: 100%;
+    height: 40px; /*altura*/
+    background-color: lightblue;
+    float: right;
+    text-align: center;
+    border-radius: 10px;
+}
+nav#menu a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 25px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+nav#menu a:hover{
+  text-decoration: underline;
+}
+article#conteudo{
+    width: 60%;
+    float: left;
+}
+aside#coluna{
+    width: 35%;
+    float: right;
+}
+footer#rodape{
+    width: 100%;
+    height: 30px;
+    float: left;
+    background-color: rgb(103, 211, 247);
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
