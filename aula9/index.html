@@ -1,33 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 9</title>
-    <link rel="stylesheet" href="css/estilo.css"/>
+    <link rel="stylesheet" href="css/estilo.css" />
 </head>
-<body>
+
+<body id="body">
     <div id="topo">
+        <div class="largura-site">
+            <div id="logotipo">
+                <img src="img/logo.png" alt="logotipo do site" />
+
+            </div>
+            <!--fecha logotipo-->
+            <div id="menu">
+                <a href="#body"> Home</a>
+                <a href="#quemsomos"> Quem Somos</a>
+                <a href="#servicos"> Serviços</a>
+                <a href="#contato"> Contato</a>
+            </div>
+            <!--fecha menu-->
+        </div>
+        <!--fecha class-->
+    </div>
+    <!--fecha topo-->
     <div class="largura-site">
-        <div id="logotipo">
-            <img src="img/logo.png" alt="logotipo do site"/>
+        <div class="conteudo" id="home">
+            <img src="img/destaquehome.jpg" alt="destaque da página home" class="imghome">
+
+            <div id="conteudohome">
+                <h1>
+                    Bem Vindos a Dent Clin!
+                </h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repudiandae? Omnis quisquam, harum
+                    iusto repudiandae, dolor sunt odit sequi maiores ullam perspiciatis quod ut possimus eligendi
+                    debitis
+                    ab? Vero, eaque?</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iure fugiat alias, commodi nemo
+                    distinctio ducimus quae magni cum. Officia consequuntur voluptates, cum excepturi laboriosam debitis
+                    quibusdam molestias nemo aperiam.</p>
+                <img src="img/imghome1.jpg" alt="criança" class="imghome" />
+                <img src="img/imghome2.jpg" alt="casal" class="imghome" />
+                <img src="img/imghome3.jpg" alr="dentista" class="imghome" />
+
+            </div>
+            <!--fecha conteudo home-->
+        </div>
+        <!--fecha a divisão home-->
+        <div class ="conteudo" id="quemsomos">
+            <h1> Quem Somos</h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias repellat dicta ipsa amet,
+                laboriosam rerum! Voluptatibus ipsam unde, laborum pariatur minima quia nam repellendus, expedita autem
+                tenetur eum quidem?</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequuntur odit ea autem ducimus
+                repellat ullam, molestiae, totam maiores doloribus quas quo. Laboriosam, reiciendis nam aspernatur
+                fugiat veritatis repellendus repellat?</p>
+            <img src="img/destaquequemsomos.jpg" alt="imagem quem somos" />
 
         </div>
-        <div id="menu">
-            <a href="#"> Home</a>
-            <a href="#"> Quem Somos</a>
-            <a href="#"> Serviços</a>
-            <a href="#"> Contato</a>
-        </div><!--fecha menu-->
-    </div><!--fecha class-->
-    </div> <!-- fecha topo-->
-    <div class="largura-site">
-        <div id="home"> </div>
-        <div id="quemsomos"> </div>
-        <div id="servicos"> </div>
-        <div id="contato"> </div>
 
-    </div><!--fecha largura-site-->
+
+        <div class="conteudo" id="servicos">
+            <h1> Nossos Serviços</h1>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam recusandae rem voluptatibus ad in magni
+                architecto, delectus voluptas officiis eos fuga libero quibusdam. Accusantium repellat ad aliquam alias
+                itaque laudantium.
+
+            </p>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam recusandae rem voluptatibus ad in magni
+                architecto, delectus voluptas officiis eos fuga libero quibusdam. Accusantium repellat ad aliquam alias
+                itaque laudantium.
+
+            </p>
+            <img src="img/destaqueservicos.jpg" alt=" nossos serviços" class="imgright" />
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit placeat expedita architecto aliquid
+                    adipisci quam reprehenderit quisquam inventore at, enim numquam, aliquam fugiat dignissimos quae
+                    tempora similique reiciendis officia a.
+
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit placeat expedita architecto aliquid
+                    adipisci quam reprehenderit quisquam inventore at, enim numquam, aliquam fugiat dignissimos quae
+                    tempora similique reiciendis officia a.
+
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit placeat expedita architecto aliquid
+                    adipisci quam reprehenderit quisquam inventore at, enim numquam, aliquam fugiat dignissimos quae
+                    tempora similique reiciendis officia a.
+
+                </li>
+            </ul>
+
+
+        </div>
+        <!--fecha serviços-->
+        <div id="contato" class="conteudo">
+            <h1> Contato</h1>
+            <P>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis impedit aliquid, a adipisci omnis
+                quam alias voluptate iste? Quas, repellat. Quos adipisci, quas unde eligendi quasi blanditiis corrupti
+                nam optio!
+            </P>
+            <img src="img/destaquecontato.jpg" alt="imagem contato">
+            <form action="#">
+                NOME:<br/>
+                <input type="text" placeholder=" Digite o nome"/><br/>
+                E-mail:<br/>
+                <input type="text" placeholder=" Digite seu e-mail"/><br/>
+                Mensagem:<br/>
+                <textarea cols="30" rows="10">
+                </textarea>   
+                </br>
+                <input type="submit" value="Enviar"/>
+            </form>
+
+
+         </div>
+        <!--fecha contato-->
+
+
+    </div>
+    <footer id="rodape">
+        Dent Clin - Todos os direitos reservados
+    </footer>
+    <!--fecha largura-site-->
+
 </body>
+
+
 </html>
